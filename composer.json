@@ -1,0 +1,20 @@
+{
+    "name": "hawksama/magento2-admin-menu",
+    "require": {
+        "php": "~8.1|~8.2|~8.3",
+        "magento/framework": "103.0.*",
+        "magento/magento-composer-installer": "*"
+    },
+    "require-dev": {
+        "magento/magento-coding-standard": "~6"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Hawksama\\AdminMenu\\": ""
+        }
+    }
+}
