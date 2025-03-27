@@ -2,12 +2,12 @@
 <!--
 /**
  * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * See LICENSE.txt for license details.
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="Hawksama_AdminMenu">
+    <module name="Liquidlab_AdminMenu">
         <sequence>
             <module name="Magento_Backend"/>
             <module name="Magento_Config"/>

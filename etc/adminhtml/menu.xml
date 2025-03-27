@@ -2,31 +2,31 @@
 <!--
 /**
  * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * See LICENSE.txt for license details.
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="Hawksama_AdminMenu::menu"
-             title="Hawksama"
-             module="Hawksama_AdminMenu"
+        <add id="Liquidlab_AdminMenu::menu"
+             title="Liquidlab"
+             module="Liquidlab_AdminMenu"
              translate="title"
              sortOrder="55"
-             resource="Hawksama_AdminMenu::menu"/>
-        <add id="Hawksama_AdminMenu::content"
+             resource="Liquidlab_AdminMenu::menu"/>
+        <add id="Liquidlab_AdminMenu::content"
              title="Content"
-             module="Hawksama_AdminMenu"
+             module="Liquidlab_AdminMenu"
              translate="title"
              sortOrder="8000"
-             parent="Hawksama_AdminMenu::menu"
-             resource="Hawksama_AdminMenu::content"/>
-        <add id="Hawksama_AdminMenu::configuration"
+             parent="Liquidlab_AdminMenu::menu"
+             resource="Liquidlab_AdminMenu::content"/>
+        <add id="Liquidlab_AdminMenu::configuration"
              title="Configuration"
-             module="Hawksama_AdminMenu"
+             module="Liquidlab_AdminMenu"
              translate="title"
              sortOrder="8000"
-             parent="Hawksama_AdminMenu::menu"
-             resource="Hawksama_AdminMenu::configuration"/>
+             parent="Liquidlab_AdminMenu::menu"
+             resource="Liquidlab_AdminMenu::configuration"/>
     </menu>
 </config>

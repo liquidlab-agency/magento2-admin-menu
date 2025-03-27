@@ -1,9 +1,9 @@
-#menu-hawksama-adminmenu-menu > a::before {
+#menu-liquidlab-adminmenu-menu > a::before {
     content: '';
     display: inline-block;
     vertical-align: middle;
     width: 3.5rem;
     height: 3.5rem;
-    background: url('../images/carabus.png') no-repeat center center;
+    background: url('../images/liquidlab.png') no-repeat center center;
     background-size: contain;
 }
