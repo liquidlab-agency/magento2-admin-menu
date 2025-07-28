@@ -1,5 +1,5 @@
 {
-    "name": "liquidlab/magento2-admin-menu",
+    "name": "liquidlab-agency/magento2-admin-menu",
     "require": {
         "php": "~8.2|~8.3",
         "magento/framework": "103.0.*",
