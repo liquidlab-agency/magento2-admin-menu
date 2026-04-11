@@ -9,7 +9,7 @@
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
         <add id="Liquidlab_AdminMenu::menu"
-             title="Liquidlab"
+             title="LIQUIDLAB"
              module="Liquidlab_AdminMenu"
              translate="title"
              sortOrder="55"
