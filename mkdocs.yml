@@ -1,0 +1,5 @@
+site_name: Admin Menu
+docs_dir: docs
+
+nav:
+  - Overview: index.md
