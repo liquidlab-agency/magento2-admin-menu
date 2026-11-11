@@ -9,7 +9,7 @@
         "magento/magento-coding-standard": "~6"
     },
     "type": "magento2-module",
-    "license": ["MIT", "proprietary"],
+    "license": ["proprietary"],
     "autoload": {
         "files": [
             "registration.php"
